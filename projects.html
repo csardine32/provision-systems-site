@@ -6,148 +6,120 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
     name="description"
-    content="Representative projects showing how ProVision Systems delivers software, automation, and integration outcomes for complex environments."
+    content="Selected examples of practical software, data, and automation work by ProVision Systems."
   />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <div class="site-wrapper">
-    <header class="top-bar">
-      <div class="container top-bar-inner">
-        <div class="logo">
-          <a href="index.html">
-            <span class="logo-mark">PV</span>
-            <span class="logo-text">
-              ProVision Systems
-              <span class="logo-subtitle">Software · Automation · Integration</span>
-            </span>
-          </a>
-        </div>
+<body class="page-layout">
+  <div class="app">
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">ProVision Systems</div>
         <nav class="main-nav">
           <a href="index.html">Home</a>
           <a href="capabilities.html">Capability Statement</a>
-          <a href="projects.html" class="active">Representative Work</a>
+          <a href="projects.html">Representative Work</a>
           <a href="teaming.html">Teaming (SDVOSB)</a>
           <a href="mailto:admin@provision.systems">Contact</a>
         </nav>
       </div>
     </header>
 
-    <main class="main">
-      <section class="hero hero-internal">
-        <div class="container hero-inner">
-          <div class="hero-copy">
-            <h1>Representative Work</h1>
-            <p class="hero-lead">
-              A few examples of how we turn messy, real-world requirements into
-              working software, integrations, and automations that teams actually use.
+    <main class="page-main">
+      <section class="page-hero">
+        <div class="container page-hero-inner">
+          <div class="page-hero-kicker">Representative Work</div>
+          <h1>Small, focused systems that unblock real teams.</h1>
+          <p>
+            Below are examples chosen to show the kind of work ProVision Systems
+            takes on: practical software and integration projects that clean up
+            data, reduce manual work, and create real visibility for operations.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container" style="margin-top: 2.5rem;">
+          <div class="page-card-accent" style="margin-bottom: 1.75rem;">
+            <span class="page-badge">Example 1</span>
+            <h2>Access control muster dashboard for life-safety.</h2>
+            <p>
+              Built a live “who is on site” dashboard backed by an enterprise
+              access control system. The system ingests automatically exported
+              reports every few minutes and updates a simple, high-clarity
+              dashboard used by safety personnel during drills and incidents.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <div class="projects-grid">
-
-            <article class="card">
-              <h2>Physical Security Operations Portal</h2>
-              <p class="project-meta">
-                <strong>Customer:</strong> Enterprise campus environment  
-                <br />
-                <strong>Focus:</strong> Access control, video, and event visibility
-              </p>
-              <p>
-                Designed and implemented a browser-based portal that unified live
-                access control data, door status, muster reports, and camera links
-                into a single, operator-friendly view.
-              </p>
-              <ul>
-                <li>Integrated with existing access control and VMS platforms.</li>
-                <li>Muster reporting and “who is on site” visibility in near real-time.</li>
-                <li>Floorplan-based navigation so operators see the problem in context.</li>
-              </ul>
-              <p>
-                Result: Faster response, fewer blind spots, and less time spent
-                jumping between vendor consoles.
-              </p>
-            </article>
-
-            <article class="card">
-              <h2>Portfolio Operations &amp; Maintenance Tracking</h2>
-              <p class="project-meta">
-                <strong>Customer:</strong> Multi-property real estate portfolio  
-                <br />
-                <strong>Focus:</strong> Workflows, status tracking, and reporting
-              </p>
-              <p>
-                Built a lightweight internal system to track renovations, work
-                orders, inspections, and capital projects across multiple properties.
-              </p>
-              <ul>
-                <li>Single source of truth for scope, cost, and schedule by property.</li>
-                <li>Automated status dashboards for owners and project managers.</li>
-                <li>Exportable data for accounting and tax support.</li>
-              </ul>
-              <p>
-                Result: Owners get a clear view of what’s happening where, and
-                field work stays aligned with budget and timeline.
-              </p>
-            </article>
-
-            <article class="card">
-              <h2>Secure Admin Portal &amp; Identity Integration</h2>
-              <p class="project-meta">
-                <strong>Customer:</strong> SaaS / security technology platform  
-                <br />
-                <strong>Focus:</strong> Admin UX, access control, and integrations
-              </p>
-              <p>
-                Created a secure administrative portal backed by Cloudflare Zero
-                Trust and identity provider integrations, enabling a clean, modern
-                management experience without exposing internal tools directly to
-                the internet.
-              </p>
-              <ul>
-                <li>Protected admin surface behind SSO and Zero Trust policies.</li>
-                <li>Clean, task-oriented UI for common operational workflows.</li>
-                <li>Structured API layer designed for future automation and reporting.</li>
-              </ul>
-              <p>
-                Result: A professional-grade admin experience with strong security
-                controls and room to grow.
-              </p>
-            </article>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-alt">
-        <div class="container content-grid two-col">
-          <div>
-            <h2>What These Projects Have in Common</h2>
-            <ul>
-              <li>They sit in the middle of existing tools and constraints.</li>
-              <li>They put operators and stakeholders first, not just technology.</li>
-              <li>They are built to be extended, documented, and supported.</li>
-              <li>They produce artifacts decision-makers can see and react to.</li>
+            <ul class="page-list">
+              <li>Automated parsing of CSV/XLS muster reports from vendor system</li>
+              <li>Normalized data model for people, badges, and entry status</li>
+              <li>Web UI showing current “IN” status and last-seen information</li>
+              <li>Designed so the customer can adjust rules and views over time</li>
             </ul>
+            <div class="page-tag-row">
+              <span class="page-tag">Python</span>
+              <span class="page-tag">Access control</span>
+              <span class="page-tag">Life safety</span>
+              <span class="page-tag">Dashboards</span>
+            </div>
           </div>
-          <div>
-            <h2>Have Something Similar in Mind?</h2>
+
+          <div class="page-card" style="margin-bottom: 1.75rem;">
+            <span class="page-badge">Example 2</span>
+            <h2>Renovation project BOM + parts tracking.</h2>
             <p>
-              Whether you’re at the “idea on a whiteboard” stage or responding to
-              a formal solicitation, we can help shape the technical approach and
-              delivery plan.
+              For a multi-phase renovation effort, built a structured way to
+              track parts across drawings, BOMs, and orders. The goal was not
+              a giant ERP replacement, but a small system that made it obvious
+              what was ordered, received, staged, and installed.
             </p>
+            <ul class="page-list">
+              <li>Ingested and cleaned existing BOM spreadsheets and PDFs</li>
+              <li>Created a single source of truth keyed by drawing &amp; device</li>
+              <li>Simple status workflow (Planned → Ordered → Received → Installed)</li>
+              <li>Exportable views for PMs, field teams, and accounting</li>
+            </ul>
+            <div class="page-tag-row">
+              <span class="page-tag">Data modeling</span>
+              <span class="page-tag">ETL</span>
+              <span class="page-tag">Construction</span>
+              <span class="page-tag">Project controls</span>
+            </div>
+          </div>
+
+          <div class="page-card">
+            <span class="page-badge">Example 3</span>
+            <h2>Operations-focused AI assistants (in progress).</h2>
             <p>
-              Send over a short description of the problem, the systems involved,
-              and any key deadlines, and we’ll respond with concrete options.
+              Prototyping narrow, operations-focused AI assistants that sit on
+              top of existing documents, SOPs, and tickets — not general chat
+              tools. The emphasis is on routing, summarization, and suggested
+              responses that a human quickly reviews and sends.
             </p>
-            <p>
-              Email: <a href="mailto:admin@provision.systems">admin@provision.systems</a>
-            </p>
+            <ul class="page-list">
+              <li>Document ingestion from PDFs, Word, and existing wikis</li>
+              <li>Search and retrieval tuned for specific roles and scenarios</li>
+              <li>“Suggested reply” and “first draft” workflows for support</li>
+              <li>Guardrails and logging designed for regulated environments</li>
+            </ul>
+            <div class="page-tag-row">
+              <span class="page-tag">AI</span>
+              <span class="page-tag">RAG</span>
+              <span class="page-tag">Support operations</span>
+            </div>
+
+            <div class="page-cta">
+              <h3 class="page-section-heading" style="margin-top: 1.1rem;">Have something similar in mind?</h3>
+              <p>
+                Whether you’re at the “idea on a whiteboard” stage or responding
+                to a formal solicitation, we can help shape the technical
+                approach and delivery plan.
+              </p>
+              <p>
+                Send a short description of the problem, systems involved, and
+                key deadlines to
+                <a href="mailto:admin@provision.systems">admin@provision.systems</a>.
+              </p>
+            </div>
           </div>
         </div>
       </section>
