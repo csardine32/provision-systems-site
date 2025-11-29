@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ProVision Systems | Capability Statement</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .cap-page {
+      padding: 3rem 0 3.5rem;
+    }
+    .cap-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+      align-items: baseline;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.4);
+      padding-bottom: 1rem;
+    }
+    .cap-title h1 {
+      font-size: 1.9rem;
+      margin: 0;
+    }
+    .cap-title p {
+      margin: 0.3rem 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .cap-contact {
+      font-size: 0.9rem;
+      text-align: right;
+      color: var(--muted);
+    }
+    .cap-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 2.2fr) minmax(0, 1.8fr);
+      gap: 1.7rem;
+    }
+    .cap-section h2 {
+      font-size: 1.1rem;
+      margin-bottom: 0.4rem;
+    }
+    .cap-section p,
+    .cap-section ul {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .cap-section ul {
+      padding-left: 1.1rem;
+      margin: 0.2rem 0 0.8rem;
+    }
+    .cap-tagline {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-top: 0.6rem;
+    }
+    .cap-badge {
+      display: inline-block;
+      padding: 0.25rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.5);
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+    .cap-meta {
+      margin-top: 1.2rem;
+      border-top: 1px solid rgba(51, 65, 85, 0.8);
+      padding-top: 0.9rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .cap-meta dl {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      row-gap: 0.25rem;
+      column-gap: 0.6rem;
+      margin: 0;
+    }
+    .cap-meta dt {
+      font-weight: 600;
+      color: #e5e7eb;
+    }
+    .cap-meta dd {
+      margin: 0;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      margin-bottom: 1.4rem;
+    }
+    .back-link:hover {
+      color: var(--accent);
+    }
+
+    @media (max-width: 900px) {
+      .cap-grid {
+        grid-template-columns: 1fr;
+      }
+      .cap-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .cap-contact {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="top-nav">
+    <div class="container nav-inner">
+      <div class="logo">ProVision<span>Systems</span></div>
+      <nav>
+        <a href="index.html#home">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#about">About</a>
+        <a href="#top">Capability Statement</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="cap-page">
+    <div class="container">
+      <a class="back-link" href="index.html">
+        ← Back to main site
+      </a>
+
+      <div class="cap-header">
+        <div class="cap-title">
+          <div class="cap-badge">Capability Statement</div>
+          <h1>ProVision Systems</h1>
+          <p>
+            Software, AI automation, and systems integration — with execution support for
+            government and enterprise projects.
+          </p>
+          <p class="cap-tagline">
+            Technical partner to Provisions Unlimited (SDVOSB) for proposals and delivery.
+          </p>
+        </div>
+        <div class="cap-contact">
+          <strong>Primary Contact</strong><br />
+          Chris Sardine, Founder &amp; Technical Architect<br />
+          <a href="mailto:admin@provision.systems">admin@provision.systems</a><br />
+          <a href="mailto:info@provision.systems">info@provision.systems</a><br />
+          provision.systems
+        </div>
+      </div>
+
+      <div class="cap-grid">
+        <!-- Left column -->
+        <section class="cap-section">
+          <h2>Core Competencies</h2>
+          <ul>
+            <li><strong>AI &amp; Automation</strong> – custom assistants and workflows, document processing, and process automation using modern AI platforms.</li>
+            <li><strong>Custom Web Applications</strong> – internal tools, admin portals, and APIs deployed using cloud-native, serverless architectures.</li>
+            <li><strong>Systems Integration</strong> – connecting legacy and modern systems (access control, VMS, property software, and cloud services).</li>
+            <li><strong>Data Engineering &amp; ETL</strong> – ingestion pipelines for CSVs, logs, and exports into structured data models for reporting.</li>
+            <li><strong>Support Engineering</strong> – technical troubleshooting, observability, and knowledge base / runbook design for deployed solutions.</li>
+          </ul>
+
+          <h2>Representative Experience</h2>
+          <ul>
+            <li>
+              <strong>Emergency Muster &amp; Occupancy Dashboard</strong> – designed and implemented a Python-based ETL pipeline consuming scheduled exports from enterprise access control software to power a live muster dashboard for on-site personnel.
+            </li>
+            <li>
+              <strong>Biometric Security Platform Support</strong> – created structured troubleshooting flows, documentation, and automation concepts to support a facial biometrics access control platform deployed in enterprise environments.
+            </li>
+            <li>
+              <strong>Property Management Automations</strong> – Google Workspace and custom tooling for rent tracking, inspection workflows, and reporting across a multi-property portfolio.
+            </li>
+            <li>
+              <strong>Data Consolidation for Cutover Projects</strong> – merged multi-source BOM and point lists into unified datasets to support large access control system cutovers and field installation tracking.
+            </li>
+          </ul>
+
+          <h2>Approach</h2>
+          <ul>
+            <li>Start from real operational constraints and workflows, not just technology choices.</li>
+            <li>Favor small, deployable components over monolithic systems.</li>
+            <li>Emphasize documentation, handoff, and long-term maintainability.</li>
+          </ul>
+        </section>
+
+        <!-- Right column -->
+        <section class="cap-section">
+          <h2>Differentiators</h2>
+          <ul>
+            <li><strong>Hands-on operations &amp; field experience</strong> – background in access control, property management, and construction/remodeling, not just pure software.</li>
+            <li><strong>End-to-end involvement</strong> – from requirements and architecture through implementation, testing, and support playbooks.</li>
+            <li><strong>Small, focused team</strong> – direct access to the technical architect doing the work, not a generic implementation team.</li>
+            <li><strong>Cloudflare &amp; Firebase focused</strong> – designed for secure, scalable, low-ops hosting from day one.</li>
+          </ul>
+
+          <h2>Teaming with Provisions Unlimited (SDVOSB)</h2>
+          <p>
+            ProVision Systems serves as a technical execution partner to
+            <strong>Provisions Unlimited</strong>, a Service-Disabled Veteran Owned Small Business (SDVOSB),
+            for government contracts requiring a prime contractor with SDVOSB status.
+          </p>
+          <ul>
+            <li>Provisions Unlimited leads proposals, compliance, and contract management.</li>
+            <li>ProVision Systems designs and delivers the software, automation, and integration work.</li>
+          </ul>
+
+          <div class="cap-meta">
+            <h2>Key Information</h2>
+            <dl>
+              <dt>Company:</dt>
+              <dd>ProVision Systems</dd>
+
+              <dt>Website:</dt>
+              <dd>https://provision.systems</dd>
+
+              <dt>Email:</dt>
+              <dd>admin@provision.systems</dd>
+
+              <dt>Primary Focus:</dt>
+              <dd>Custom software, AI automation, and systems integration.</dd>
+
+              <dt>Teaming:</dt>
+              <dd>Technical partner to Provisions Unlimited (SDVOSB) for government work.</dd>
+            </dl>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> ProVision Systems. All rights reserved.</span>
+      <span class="footer-right">Capability Statement</span>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
